@@ -1,0 +1,48 @@
+{
+   "abstract" : "RT Extension-SearchResults-Cards Extension",
+   "author" : [
+      "Best Practical Solutions, LLC <modules@bestpractical.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.08, CPAN::Meta::Converter version 2.141520",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "RT-Extension-SearchResults-Cards",
+   "no_index" : {
+      "directory" : [
+         "html",
+         "inc",
+         "static"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {}
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://opensource.org/licenses/gpl-license.php"
+      ],
+      "repository" : {
+         "url" : "https://github.com/bestpractical/rt-extension-searchresultscards"
+      }
+   },
+   "version" : "0.01"
+}

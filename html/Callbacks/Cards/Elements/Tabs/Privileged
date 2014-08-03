@@ -1,0 +1,10 @@
+<%init>
+my $more = PageMenu()->child( 'more' );
+return unless $more;
+my $rss = $more->child('rss');
+return unless $rss;
+
+my $path = $rss->{path};
+$path =~ s!^/NoAuth/rss!/NoAuth/Cards!;
+$more->child( cards => title => loc('Cards'), path => $path);
+</%init>
